@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ALFA Главная</title>
+    </head>
+    <style>
+        html {
+            background-color: white;
+            width: auto;
+            font-family: sans-serif;
+            color: black;
+        }
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .shapka {
+            width: auto;
+            height: 145px;
+            white-space: nowrap;
+            background-image: linear-gradient(30deg,#3B3B3B 20%, #515151 40%, #606060 50%, #515151 60%, #3B3B3B 85%);
+            font-family: fantasy;
+            text-decoration: none;
+        }
+        .logo1 {
+            width: auto;
+            margin: 10px 0 0 680px;
+            float: left;
+            display: inline-block;
+        }
+        .logo2 {
+            width: auto;
+            margin: 40px -172px 0 0;
+            float: right;
+            display: inline-block;
+        }
+        .glav {
+            font-size: 22px;
+            float: left;
+            display: inline-block;
+            margin: 40px 0 0 40px;
+        }
+        .price {
+            font-size: 22px;
+            float: left;
+            display: inline-block;
+            margin: 80px 0 0 -35px;
+        }
+        .onas {
+            font-size: 22px;
+            float: left;
+            display: inline-block;
+            margin: 40px 0 0 20px;
+        }
+        .kont {
+            font-size: 22px;
+            float: left;
+            display: inline-block;
+            margin: 80px 0 0 -153px;
+        }
+        .reg {
+            font-size: 19px;
+            float: right;
+            display: inline-block;
+            margin: 100px 30px 0 0;
+        }
+        .inf1 {
+            font-size: 30px;
+            width: auto;
+            height: 80px;
+            margin: 0 40px 0 0;
+            text-align: center;
+            display: inline-block;
+        }
+        .back {
+            position: relative;
+            width: 100%;
+        }
+        .block1 {
+            width: 100%;
+            height: 1269px;
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .inf1 {
+            position: absolute;
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            z-index: 100;
+            left: 34%;
+            top: 150px;
+            padding: 20px;
+            background: #00000094;
+        }
+        .inf2 {
+            position: absolute;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            z-index: 100;
+            left: 23%;
+            top: 280px;
+            margin: 0 20% 0 0;
+            padding: 20px;
+            background: #00000094;
+        }
+        .k1 {
+            position: absolute;
+            left: 300px;
+            top: 500px;
+            width: 110px;
+            padding: 20px 370px 20px 20px;
+            background: #00000094;
+        }
+        .p1 {
+            position: absolute;
+            left: 460px;
+            top: 515px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .o1 {
+            position: absolute;
+            left: 460px;
+            top: 585px;
+            font-size: 18px;
+            width: 350px;
+            text-align: left;
+        }
+        .k2 {
+            position: absolute;
+            left: 1000px;
+            top: 500px;
+            width: 110px;
+            padding: 20px 370px 20px 20px;
+            background: #00000094;
+        }
+        .p2 {
+            position: absolute;
+            left: 1160px;
+            top: 515px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .o2 {
+            position: absolute;
+            left: 1160px;
+            top: 585px;
+            font-size: 18px;
+            width: 350px;
+            text-align: left;
+        }
+        .k3 {
+            position: absolute;
+            left: 300px;
+            top: 700px;
+            width: 110px;
+            padding: 20px 370px 20px 20px;
+            background: #00000094;
+        }
+        .p3 {
+            position: absolute;
+            left: 460px;
+            text-align: left;
+            width: 300px;
+            top: 715px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .o3 {
+            position: absolute;
+            left: 460px;
+            top: 785px;
+            font-size: 18px;
+            width: 350px;
+            text-align: left;
+        }
+        .k4 {
+            position: absolute;
+            left: 1000px;
+            top: 700px;
+            width: 110px;
+            padding: 20px 370px 20px 20px;
+            background: #00000094;
+        }
+        .p4 {
+            position: absolute;
+            left: 1160px;
+            top: 715px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .o4 {
+            position: absolute;
+            left: 1160px;
+            top: 785px;
+            font-size: 18px;
+            width: 350px;
+            text-align: left;
+        }
+        .k5 {
+            position: absolute;
+            left: 300px;
+            top: 900px;
+            width: 110px;
+            padding: 20px 370px 20px 20px;
+            background: #00000094;
+        }
+        .p5 {
+            position: absolute;
+            left: 460px;
+            top: 915px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .o5 {
+            position: absolute;
+            left: 460px;
+            top: 985px;
+            font-size: 18px;
+            width: 350px;
+            text-align: left;
+        }
+        .podval {
+            width: 100%;
+            height: 130px;
+            float: right;
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+            border-top: 3px solid #eb0000;
+            background-image: linear-gradient(30deg,#3B3B3B 20%, #515151 40%, #606060 50%, #515151 60%, #3B3B3B 85%);
+        }
+        .b1 {
+            margin: 50px 0 0 70px;
+            width: 100px;
+            float: left;
+            display: inline-block;
+        }
+        .b2 {
+            margin: 50px 0 0 50px;
+            width: 100px;
+            float: left;
+            display: inline-block;
+        }
+        .b3 {
+            margin: 50px 0 0 50px;
+            width: 100px;
+            float: left;
+            display: inline-block;
+        }
+        .b4 {
+            margin: 100px 0 0 200px;
+            width: 550px;
+            font-size: 20px;
+            color: #00000094;
+            float: left;
+            display: inline-block;
+        }
+    </style>
+    <body>
+        <div>
+            <div class = shapka>
+                <div class = glav><a href = 1.html >ГЛАВНАЯ</a></div>
+                <div class = onas><a href = 2.html >О НАС</a></div>
+                <div class = kont><a href = 3.html >КОНТАКТЫ</a></div>
+                <div class = price><a href = 4.html >ЦЕНЫ</a></div>
+                <div class = logo1><img src = logo1.png width = 60%></div>
+                <div class = reg><a href = 5.html >ЗАРЕГИСТРИРОВАТЬСЯ</a></div>
+                <div class = logo2><img src = logo2.png width = 100%></div>
+            </div>
+            <div class = block1>
+                <img class = back src = 1.jpg>
+                <div class = inf1>Играем как дома</div>
+                <div class = inf2>Просторный BOOTCAMP на 5 ПК (RTX 3060Ti, 240 Гц), бронируй заранее!
+                Общий зал на 22 ПК (RTX3060, 144Гц). Атмосферный лаунж с PS5 и PS4 Pro. 
+                Самые популярные игры: FIFA21, FIFA22, UFC, Mortal Combat, Dota 2, CS:GO, CS 1.6, PUBG, FORTNITE и многие другие.</div>
+                <div class = block2>
+                    <img class = k1 src = pc.png>
+                    <div class = p1>27 Игровых компьютеров</div>
+                    <div class = o1>Все ПК настроены на максимальную производительность</div>
+                    <img class = k2 src = vip.png>
+                    <div class = p2>VIP комната</div>
+                    <div class = o2>Просторные игровые места, более мощное оборудование</div>
+                    <img class = k3 src = ps.png>
+                    <div class = p3>PS 5 и PS 4 Pro TV 55" 4K (smart TV)</div>
+                    <div class = o3>Отличный способ провести время с друзьями!</div>
+                    <img class = k4 src = bar.png>
+                    <div class = p4>Выгодные цены на бар</div>
+                    <div class = o4>Наш ассортимент не оставит тебя грустным и голодным!</div>
+                    <img class = k5 src = 247.png>
+                    <div class = p5>Работаем 24/7</div>
+                    <div class = o5>Всегда рады тебя видеть!</div>
+                </div>
+            </div>
+            <div class = podval>
+                <img src = logo2.png align = right width = 290px style = "margin: 27px 90px 10px 0">
+                <div class = b1><a href = "2.html">ЦЕНЫ</a></div>
+                <div class = b2><a href = "3.html">О НАС</a></div>
+                <div class = b3><a href = "4.html">КОНТАКТЫ</a></div>
+                <div class = b4>© Компьютерный клуб ALFA 2018-2022</div>
+            </div>
+        </div>
+    </body>
+</html>
